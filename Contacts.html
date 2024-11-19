@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Community Center" width="361">
+            </div>
+            <div class="topnav">
+                <a href="Index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Testimonials.html">Testimonials</a>
+                <a href="Services.html">Services</a>
+                <a href="Events.html">Events</a>
+                <a href="Policy.html">Policy</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="Contacts.html">Contact Us</a>
+            </div>
+
+             <div class="search-box">
+                <input type="text" placeholder="Search Community..." id="searchInput"/>
+                <button type="submit" id="searchButton">Search</button>
+            </div>
+        </nav>
+    </header>
+    <!--End header-->
+    <navbar>
+
+        <div class="container">
+            <div class="carousel">
+                 <div>
+                    <img src="images/swim.jpg" alt="Slide 1" class="image">
+                </div>
+                <div>
+                    <img src="images/counseling.jpg" alt="Slide 2" class="image">
+                </div>
+                <div>
+                    <img src="images/donations.jpg" alt="Slide 3" class="image">
+                </div>
+            </div>
+        </div>
+        <!--End carousel-->
+
+
+    </navbar>
+
+<!--main-->
+ <!--contacts-->
+        <div class="row">
+            <!-- Left Side: Map -->
+            <div class="col-md-6">
+                <section id="contact">
+                    <h2>Contact Us</h2>
+                    <p>Email: info@communitycenter.com</p>
+                    <p>Phone: (+254) 743908622</p>
+                    <p>Address: KOKOPoint, 4867, Beza-Juja</p>
+                    <!-- Google Map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="450" style="border:0;" allowfullscreen=""></iframe>
+                </section>
+            </div>
+
+            <!-- Right Side: Contact Form -->
+            <div class="col-md-6">
+                <section id="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form action="#" method="POST">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+        <!--End Contacts-->
+
+
+
+<!--End main -->
+
+
+<!-- Footer -->
+    <footer>
+        <div class="row">
+            <!-- Social Media Links -->
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <ul class="social-media-links">
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="col-md-4">
+                <h5>Our Services</h5>
+                <ul class="services-list">
+                    <li><a href="#services">Swimming</a></li>
+                    <li><a href="#services">Counseling</a></li>
+                    <li><a href="#services">Gym</a></li>
+                    <li><a href="#services">Yoga Classes</a></li>
+                    <li><a href="#services">Community Hall</a></li>
+                    <li><a href="#services">Donations</a></li>
+                </ul>
+            </div>
+
+            <!-- Community Policies -->
+            <div class="col-md-4">
+                <h5>Community Policies</h5>
+                <ul class="policies-list">
+                    <li><a href="#policies">Privacy Policy</a></li>
+                    <li><a href="#policies">Terms of Use</a></li>
+                    <li><a href="#policies">Code of Conduct</a></li>
+                    <li><a href="#policies">Membership Agreement</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p>&copy; 2024 Your Community Center</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
